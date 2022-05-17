@@ -18,11 +18,11 @@ body {
 header {
   width: 317px;
   background: #1A1B21;
+  border-radius: 15px 15px 0px 0px;
 }
 
 header > h1 {
   margin: 0;
-  font-style: normal;
   font-weight: 700;
   font-size: 25px;
   text-align: center;
@@ -31,12 +31,53 @@ header > h1 {
 
 header > h3 {
   margin: 0;
-  font-style: normal;
   font-weight: 400;
   font-size: 13px;
   text-align: center;
   color: #F3BF99;
   padding-top: 6px;
+}
+
+header > p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+header > .buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.buttons > button {
+  width: 115px;
+  height: 34px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+button > img, button > span {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.email-btn {
+  margin-right: -15px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedin-btn {
+  background: #5093E2;
+  border: none;
+  border-radius: 6px;
+  color: white;
 }
 
 #root {
